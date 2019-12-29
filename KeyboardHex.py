@@ -154,6 +154,7 @@ KEY_FIND = 0x7e  # Keyboard Find
 KEY_MUTE = 0x7f  # Keyboard Mute
 KEY_VOLUMEUP = 0x80  # Keyboard Volume Up
 KEY_VOLUMEDOWN = 0x81  # Keyboard Volume Down
+
 # = 0x82  Keyboard Locking Caps Lock
 # = 0x83  Keyboard Locking Num Lock
 # = 0x84  Keyboard Locking Scroll Lock
@@ -313,6 +314,11 @@ KEYS = {
 	'DOWN': KEY_DOWN,
 	'LEFT': KEY_LEFT,
 	'RIGHT': KEY_RIGHT,
+	'BKSPACE': KEY_BACKSPACE,
+	'SLEEP': KEY_MEDIA_SLEEP,
+	'PLAY': KEY_MEDIA_PLAYPAUSE,
+	'TAB': KEY_TAB,
+	'PAUSE': KEY_PAUSE,
 	'SPACE': KEY_SPACE,
 	' ': KEY_SPACE,
 	'A': KEY_A,
