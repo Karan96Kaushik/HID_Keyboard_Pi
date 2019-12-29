@@ -28,5 +28,6 @@ def send_char_cap(key):
 
 while True:
     key = input('-->')
+    print(kh.KEYS[key])
     send_char(kh.KEYS[key])
     pass
