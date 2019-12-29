@@ -27,7 +27,17 @@ def send_char_cap(key):
 	release()
 
 while True:
-    key = input('-->')
-    print(kh.KEYS[key])
-    send_char(kh.KEYS[key])
-    pass
+	key = input('-->')
+	try:
+		print(kh.KEYS[key.lower()])
+		send_char(kh.KEYS[key.lower()])
+		pass
+	except:
+		for x in key:
+			print(kh.KEYS[x.lower()])
+			send_char(kh.KEYS[x.lower()])
+			pass
+	finally:
+		pass
+	
+	pass

@@ -1,6 +1,6 @@
 import KeyboardHex as kh
 
-arr = 'karan'
+arr = 'karan k'
 
 for x in arr:
     print(kh.KEYS[x])
