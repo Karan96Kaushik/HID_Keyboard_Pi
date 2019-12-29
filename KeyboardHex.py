@@ -15,18 +15,6 @@ KEY_MOD_RMETA = 0x80
  * KEY_ERR_OVF in all slots to indicate this condition.
  """
 
-KEYS = {
-	'a': KEY_A,
-	'b': KEY_B,
-	'c': KEY_C,
-	'd': KEY_D,
-	'e': KEY_E,
-	'f': KEY_F,
-	'ENTER': KEY_ENTER,
-	'SHIFT': KEY_LEFTSHIFT,
-	'SPACE': KEY_SPACE
-}
-
 KEY_NONE = 0x00  # No key pressed
 # Keyboard Error Roll Over - used for all slots if too many keys are pressed ("Phantom key")
 KEY_ERR_OVF = 0x01
@@ -278,3 +266,16 @@ KEY_MEDIA_SLEEP = 0xf8
 KEY_MEDIA_COFFEE = 0xf9
 KEY_MEDIA_REFRESH = 0xfa
 KEY_MEDIA_CALC = 0xfb
+
+
+KEYS = {
+	'a': KEY_A,
+	'b': KEY_B,
+	'c': KEY_C,
+	'd': KEY_D,
+	'e': KEY_E,
+	'f': KEY_F,
+	'ENTER': KEY_ENTER,
+	'SHIFT': KEY_LEFTSHIFT,
+	'SPACE': KEY_SPACE
+}
