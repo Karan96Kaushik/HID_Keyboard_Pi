@@ -33,6 +33,13 @@ send_char(kh.KEY_A)
 send_char(kh.KEY_N)
 send_char(kh.KEY_ENTER)
 
+send_char_cap(kh.KEY_K)
+send_char(kh.KEY_A)
+send_char_cap(kh.KEY_R)
+send_char(kh.KEY_A)
+send_char_cap(kh.KEY_N)
+send_char(kh.KEY_ENTER)
+
 # Press a
 write_report(NULL_CHAR*2+chr(4)+NULL_CHAR*5)
 # Release keys
