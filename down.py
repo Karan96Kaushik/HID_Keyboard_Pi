@@ -1,4 +1,4 @@
-import KEYS from KeyboardHex
+from KeyboardHex import KEYS 
 
 NULL_CHAR = chr(0)
 
