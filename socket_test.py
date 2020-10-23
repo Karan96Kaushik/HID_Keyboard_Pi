@@ -1,6 +1,6 @@
 import socket
 
-host_ip, server_port = "creepyfuck.tech", 1337
+host_ip, server_port = "cryers.club", 1337
 data = "AB"
 
 # Initialize a TCP client socket using SOCK_STREAM
